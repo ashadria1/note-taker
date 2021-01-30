@@ -2,6 +2,11 @@
 
 # Unit 11 Express Homework: Note Taker
 
+git clone
+cd into folder
+npm install
+npm start
+Open http://localhost:3000 in your favorite browser.
 ## Description
 
 Create an application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.

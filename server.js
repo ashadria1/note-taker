@@ -52,14 +52,21 @@ app.delete('/api/notes/:id', (req, res) => {
   });
 });
 
+/* 
+  * GET `/notes` - Should return the `notes.html` file.
+  * The following API routes should be created:
+  * GET `/api/notes` - Should read the `db.json` file and return all saved notes as JSON. */
+
 app.get('/notes', (req, res) => {
   res.sendFile(path.join(__dirname, './public/notes.html'));
 });
+
+/* * GET `*` - Should return the `index.html` file */
 
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, './public/index.html'));
 });
 
 app.listen(PORT, () => {
-  console.log(`Listening on port ${PORT}`);
+  console.log(`Listening on port ${PORT}! Open http://localhost:3000 in your favorite browser!`);
 });

@@ -30,4 +30,4 @@ This app could prove useful to users who need to keep track of a lot of informat
 
 * The URL of the GitHub repository:  https://github.com/ashadria1/note-taker
 
-* The URL of the Heroku app:  https://dashboard.heroku.com/apps/arcane-tundra-30490
+* The URL of the Heroku app:  https://arcane-tundra-30490.herokuapp.com/

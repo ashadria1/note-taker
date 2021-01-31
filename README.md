@@ -1,6 +1,6 @@
 # Note Taker
 
-I have created an application that can be used to write, save, and delete notes. This application will use an express backend, and save and retrieve note data from a JSON file.
+I have created an application that can be used to write, save, and delete notes. This application will use an Express backend, and save and retrieve note data from a JSON file.
 
 ## User Story
 
@@ -12,11 +12,11 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 ## What is it?
 
-This app could prove useful to to users who need to keep track of a lot of information.  In a fast-paced, competitive work environment, it can be easy to forget something important. Being able to take persistent notes allows users to have written information available when needed. This application should allow users to create and save notes, view previously saved notes, and delete previously saved notes.
+This app could prove useful to users who need to keep track of a lot of information.  In a fast-paced, competitive work environment, it can be easy to forget something important. Being able to take persistent notes allows users to have written information available when needed. This application should allow users to create and save notes, view previously saved notes, and delete previously saved notes.
 
 ## Installation Instructions
 
-1. Clone the repo to your local machine, and open your command line interface.
+1. Clone the repo to your local machine, and open your command line interface (Git Bash).
 2. Make sure you're in the right directory, and initialize npm:  `npm init -y`.
 3. Make sure npm is installed:  `npm install`.
 4. Install the Express npm package: `npm install express`.
@@ -28,6 +28,6 @@ This app could prove useful to to users who need to keep track of a lot of infor
 
 ## Important Links
 
-* The URL of the GitHub repository:
+* The URL of the GitHub repository:  https://github.com/ashadria1/note-taker
 
-* The URL of the Heroku app:
+* The URL of the Heroku app:  https://dashboard.heroku.com/apps/arcane-tundra-30490

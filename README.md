@@ -16,8 +16,8 @@ This app could prove useful to users who need to keep track of a lot of informat
 
 ## Installation Instructions
 
-1. Clone the repo to your local machine, and open your command line interface (Git Bash).
-2. Make sure you're in the right directory, and initialize npm:  `npm init -y`.
+1. Clone the repo to your local machine, and open a new terminal in VSCode (e.g., Git Bash).
+2. Make sure you're in the cloned directory, and initialize npm:  `npm init -y`.
 3. Make sure npm is installed:  `npm install`.
 4. Install the Express npm package: `npm install express`.
 5. Install the fs npm package: `npm install fs`.

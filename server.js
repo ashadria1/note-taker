@@ -68,5 +68,5 @@ app.get('*', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Listening on port ${PORT}! Open http://localhost:3000 in your favorite browser!`);
+  console.log(`Listening on port ${PORT}! Open http://localhost:3000 in your favorite browser if you're running this locally!`);
 });

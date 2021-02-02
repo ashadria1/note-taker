@@ -18,7 +18,7 @@ app.get('/api/notes', (req, res) => {
       console.error(err);
       return res.sendStatus(500);
     }
-    res.json(JSON.parse(data));
+    res.json(data);
   });
 });
 

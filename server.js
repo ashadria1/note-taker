@@ -18,13 +18,13 @@ app.get('/api/notes', (req, res) => {
       console.error(err);
       return res.sendStatus(500);
     }
-    res.json(data);
+    res.json(JSON.parse(data));
   });
 });
 
 app.post('/api/notes', (req, res) => {
   fs.readFile(dbPath, 'utf8', (err, data) => {
-    const notes = (data);
+    const notes = JSON.parse(data);
     const newNote = req.body;
     newNote.id = new Date().getTime();
     notes.push(newNote);

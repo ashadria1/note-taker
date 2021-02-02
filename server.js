@@ -24,7 +24,7 @@ app.get('/api/notes', (req, res) => {
 
 app.post('/api/notes', (req, res) => {
   fs.readFile(dbPath, 'utf8', (err, data) => {
-    const notes = JSON.parse(data);
+    const notes = (data);
     const newNote = req.body;
     newNote.id = new Date().getTime();
     notes.push(newNote);
